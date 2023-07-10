@@ -1,0 +1,156 @@
+<!-- Add attribute to open link in a new tab -->
+<!-- https://www.w3schools.com/tags/ref_byfunc.asp Use this to add tags we have not gone over and make two sections of your own -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Practice</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+</head>
+
+<body>
+    <nav>
+        <img class="nav-logo" src="ac-logo.jpg" alt="Annie Cannons logo that looks like A C">
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>CONTACT</li>
+        </ul>
+    </nav>
+    <section class="headers-section">
+        <h1>This is an <a href="https://github.com/SabraBoydDev" target=”_blank”>h1</a></h1>
+        <h2>This is an <a href="https://github.com/SabraBoydDev">h2</a></h2>
+        <h3>This is an <a href="https://github.com/SabraBoydDev">h3</a></h3>
+        <h4><a href="https://google.com/">This is an h4</a></h4>
+        <h5><a href="https://google.com/">This is an h5</a></h5>
+        <h6><a href="https://google.com/">This is an h6</a></h6>
+
+    </section>
+    <section class="hero-section">
+        <div class="hero-wrapper">
+            <div class="form-wrapper">
+                <h1>Request a Quote</h1>
+                <form>
+                    <input type="text" id="fname" name="fname" placeholder="First Name" required><br>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name" required><br>
+                    <input type="text" id="email" name="email" placeholder="Email" required><br>
+                    <!-- Drop Down Menu for Form-->
+                    <select name="budget" id="budget">
+                        <option value="budget" disabled selected>Select Budget Range</option>
+                        <option type="select" value="$300 - $500">$300 - $500</option>
+                        <option type="select" value="$500 - $1000">$500 - $1000</option>
+                        <option type="select" value="$1000 - 2000">$1000 - $2000</option>
+                    </select>
+                </form>
+            </div>
+            <div class="text-wrapper">
+                <h1 class="hero-header">Writing inclusive software for the next generation</h1>
+                <p>Welcome to the world of HTML! Remember to have fun while learning, embrace the bugs, and make sure to
+                    break things.</p>
+                <button onclick="window.location.href='https://anniecannons.org/';" type="button" value="button"> LEARN
+                    MORE </button>
+            </div>
+        </div>
+    </section>
+    <section class="about-section">
+        <!-- <h1 class="section-header">About Us</h1> -->
+        <div class="about-wrapper">
+            <div class="about-img-wrapper">
+                <img src="software-graphic.png" alt="hero image" />
+            </div>
+            <div class="about-text-wrapper">
+                <h1>About Our Products</h1>
+                <!-- add bulleted list, and numbered with top 5 reasons to hire us, etc -->
+                <p>
+                    We make the best software around. We are also really fun to work
+                    with!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="gallery-section">
+        <div class="gallery-text-wrapper">
+            <img src="gallery1.jpg"
+                alt="beautiful lake on a sunny day with a boat in the foreground and a rocky steep mountainside across the bay">
+            <img src="gallery2.jpg" alt="clouds in the mountains">
+            <img src="gallery3.jpg" alt="boats in a beautiful bay that looks like it might be in Laos or Vietnam">
+            <img src="gallery4.jpg" alt="person watching the sunset on a dock with snowy mountains in the background">
+            <img src="gallery5.jpg" alt="rolling green hills next to a lake">
+            <img src="gallery7.jpg" alt="sheep on a misty mountainside">
+            <img src="gallery8.jpg" alt="sea stacks at a dramatic beach that looks like the california coast">
+            <img src="gallery9.jpg" alt="lovely little seaside village aerial view">
+        </div>
+        <div class="images-wrapper">
+
+        </div>
+    </section>
+    <section class="awards-section">
+        <h1 class="section-header">Awards</h1>
+        <p class="awards-section-text">We have won many awards for our software. Here are just a few of them.</p>
+        <div class="flex-wrapper">
+            <div class="left-content-box content-box">
+                <h2>Click here to ask <a href="https://openai.com/blog/chatgpt">ChatGPT</a> about each of these rewards!
+                </h2>
+                <ul>
+                    <li>Best CSS</li>
+                    <li>Most thorough documentation</li>
+                    <li>Number One Creative Solutions Center</li>
+                    <li>Dedicated to taking our time</li>
+                </ul>
+            </div>
+            <div class="right-content-box content-box">
+                <img src="award.png" alt="ribbon illustration">
+            </div>
+        </div>
+    </section>
+    <section class="divs parent-child-section section steps-section">
+        <h1 class="section-header">Our Steps</h1>
+        <div class="" steps-card">
+            <h1>1</h1>
+            <p>Give us a call! We will go over everything together and ensure you want to hire us.</p>
+        </div>
+        <div class="" steps-card">
+            <h1>2</h1>
+            <p>Meet with our product team to determine your MVP, a product that will thrill your users.</p>
+        </div>
+        <div class="" steps-card">
+            <h1>3</h1>
+            <p>Our in-house designers will create something that is both beautiful, functional, and user-friendly.</p>
+        </div>
+        <div class="" steps-card">
+            <h1>4</h1>
+            <p>Our team will build the app of your dreams. We will take our time and pay close attention to every
+                detail.</p>
+        </div>
+        <div class="steps-wrapper">
+        </div>
+    </section>
+    <section class="section certification-section">
+        <div class="certification-process-wrapper">
+            <h1 class="section-header">Our Certification Process</h1>
+            <ol>
+                <li>Internal testing</li>
+                <li>Beta testing with a small group</li>
+                <li>Make changes based on feedback</li>
+                <li>Present the software to the world!</li>
+            </ol>
+        </div>
+    </section>
+    <section class="section footer-section">
+        <div class="buttons-wrapper">
+            <button onclick="window.location.href='https://anniecannons.org/';" type="button"
+                value="button">Contact</button>
+            <button onclick="window.location.href='https://anniecannons.org/';" type="button"
+                value="button">Learn</button>
+            <button onclick="window.location.href='https://anniecannons.org/';" type="button"
+                value="button">Request</button>
+            <button onclick="window.location.href='https://anniecannons.org/';" type="button"
+                value="button">Donate</button>
+        </div>
+    </section>
+</body>
+
+</html>
